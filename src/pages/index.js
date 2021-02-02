@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import GalleryComponent from "../components/gallery"
 
 const BlogIndex = ({ data, path, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -38,6 +39,7 @@ const BlogIndex = ({ data, path, location }) => {
         You're currently on the page "{path}" which was built on
         {data.site.buildTime}.
       </p>
+      <GalleryComponent />
     </Layout>
   )
 }
