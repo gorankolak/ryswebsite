@@ -12,8 +12,7 @@ const BlogIndex = ({ data, path, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Doodle Your Toys" />
-      <h2>Turning drawings to handmade toys</h2>
-      <h3>Since 2013.</h3>
+      <h1>Since 2013.</h1>
       <p>
         We make custom stuffed toys based on your children's imagination. Send
         us a photo of doodle, artwork, sketch, cartoon or any kind of drawing

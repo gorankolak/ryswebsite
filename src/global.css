@@ -7,3 +7,16 @@
 body {
   background-color: var(--main-bg);
 }
+
+.logo-wrapper {
+  text-align: center;
+}
+
+.logo-wrapper img {
+  max-width: 100px;
+}
+
+.logo-wrapper a {
+  display: block;
+  background-image: none;
+}
