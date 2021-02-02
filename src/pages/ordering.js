@@ -27,17 +27,13 @@ const OrderingPage = ({ data, location }) => {
       </p>
       <ul>
         <li>
-          <ul>
-            <li>
-              Photo of the drawing - scanned or captured (in any image format,
-              e.g. JPEG, PNG, BMP, GIF, PDF, PSD) - mail us, or upload on our
-              Facebook page.
-            </li>
-            <li>
-              Chosen size of the toy  - size details are on{" "}
-              <a href="http://www.doodleyourtoys.com/pricing/">Pricing</a> page.
-            </li>
-          </ul>
+          Photo of the drawing - scanned or captured (in any image format, e.g.
+          JPEG, PNG, BMP, GIF, PDF, PSD) - mail us, or upload on our Facebook
+          page.
+        </li>
+        <li>
+          Chosen size of the toy  - size details are on{" "}
+          <a href="http://www.doodleyourtoys.com/pricing/">Pricing</a> page.
         </li>
       </ul>
       <p>
