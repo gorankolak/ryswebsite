@@ -1,14 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import GalleryComponent from "../components/gallery"
+import ContactForm from "../components/contactform"
 
 const BlogIndex = ({ data, path, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -40,6 +39,7 @@ const BlogIndex = ({ data, path, location }) => {
         {data.site.buildTime}.
       </p>
       <GalleryComponent />
+      <ContactForm />
     </Layout>
   )
 }
