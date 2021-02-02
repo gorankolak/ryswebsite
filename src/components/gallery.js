@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Gallery from "@browniebroke/gatsby-image-gallery"
 import "@browniebroke/gatsby-image-gallery/dist/style.css"
+import styles from "./gallery.module.css"
 
 const GalleryComponent = () => {
   const data = useStaticQuery(graphql`
@@ -26,7 +27,12 @@ const GalleryComponent = () => {
 
   const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
 
-  return <Gallery images={images} />
+  return (
+    <div className={styles.galleryWrapper}>
+      <h2>Subtitle</h2>
+      <Gallery images={images} />
+    </div>
+  )
 }
 
 export default GalleryComponent

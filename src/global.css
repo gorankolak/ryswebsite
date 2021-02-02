@@ -1,0 +1,9 @@
+/* Global variables */
+:root {
+  --main-bg: #fef7dd;
+  --other-test: #c53927;
+}
+
+body {
+  background-color: var(--main-bg);
+}

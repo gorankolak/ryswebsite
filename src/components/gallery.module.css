@@ -1,0 +1,7 @@
+.galleryWrapper {
+  color: yellow;
+}
+
+.galleryWrapper h2 {
+  color: var(--other-test);
+}
