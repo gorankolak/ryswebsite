@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import CookieConsent from "react-cookie-consent"
 
 import logo from "../../content/assets/dyt-logo.png"
 
@@ -34,9 +35,18 @@ const Layout = ({ location, title, children }) => {
       </header>
       <main>{children}</main>
       <footer>
-        <p>Doodle Your Toys, 2013. - {new Date().getFullYear()}.</p>
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics"
+        >
+          This site uses cookies ...
+        </CookieConsent>
         <p>
-          Created by <a href="https://github.com/gorankolak">GK</a>
+          All images and content © 2013. - {new Date().getFullYear()}. Doodle
+          Your Toys. All rights reserved. Website developed by{" "}
+          <a href="https://github.com/gorankolak">GK</a>
         </p>
       </footer>
     </div>
