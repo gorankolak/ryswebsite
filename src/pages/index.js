@@ -1,49 +1,31 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import GalleryComponent from "../components/gallery"
-import ContactForm from "../components/contactform"
+import GalleryComponent from "../components/gallery/gallery"
+import ContactForm from "../components/contact-form/contact-form"
 
-const BlogIndex = ({ data, path, location }) => {
+const HomePage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Doodle Your Toys" />
-      <h1>Since 2013.</h1>
       <p>
-        We make custom stuffed toys based on your children's imagination. Send
-        us a photo of doodle, artwork, sketch, cartoon or any kind of drawing
-        and we're going to turn it into your child's personalized toy.
+        We'll make you a unique plush toy based on your imagination. Send us
+        your drawings, artworks, cartoons, sketches, or any kind of graphic
+        design to mail@doodleyourtoys.com
       </p>
-      <ul>
-        <li>
-          {/* TO-DO: Later transform to graphQL link usage */}
-          <Link to="/ordering/">Ordering</Link>
-        </li>
-        <li>
-          <Link to="/pricing/">Pricing</Link>
-        </li>
-        <li>
-          <Link to="/about-us/">About Us</Link>
-        </li>
-        <li>
-          <Link to="/blog/">Blog</Link>
-        </li>
-      </ul>
-      <p>
-        You're currently on the page "{path}" which was built on
-        {data.site.buildTime}.
-      </p>
+      <p>Turning drawings into stuffed plush toys - since 2013.</p>
+
       <GalleryComponent />
       <ContactForm />
     </Layout>
   )
 }
 
-export default BlogIndex
+export default HomePage
 
 export const pageQuery = graphql`
   query {

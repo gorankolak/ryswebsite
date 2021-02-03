@@ -29,7 +29,6 @@ const GalleryComponent = () => {
 
   return (
     <div className={styles.galleryWrapper}>
-      <h2>Subtitle</h2>
       <Gallery images={images} />
     </div>
   )
