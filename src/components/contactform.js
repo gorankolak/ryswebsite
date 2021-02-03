@@ -32,8 +32,8 @@ const ContactForm = () => {
       })
   }
   return (
-    <div>
-      <h3>Getform.io Gatsby Form Example</h3>
+    <div className="contact-form">
+      <h3>Contact Us</h3>
       <form
         acceptCharset="UTF-8"
         onSubmit={handleOnSubmit}
