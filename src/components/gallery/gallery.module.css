@@ -5,3 +5,7 @@
 .galleryWrapper h2 {
   color: var(--other-test);
 }
+
+.galleryWrapper img {
+  cursor: pointer;
+}

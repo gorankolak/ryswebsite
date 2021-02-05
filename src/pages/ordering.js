@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
@@ -31,7 +31,7 @@ const OrderingPage = ({ data, location }) => {
         </li>
         <li>
           Chosen size of the toy  - size details are on{" "}
-          <a href="http://www.doodleyourtoys.com/pricing/">Pricing</a> page.
+          <Link to="/pricing/">Pricing</Link>
         </li>
       </ul>
       <p>
