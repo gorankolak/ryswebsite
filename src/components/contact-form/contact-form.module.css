@@ -1,0 +1,42 @@
+.contactForm {
+  margin: 2rem 0;
+}
+
+.contactForm h3 {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 400px;
+  margin: auto; */
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 0.75em;
+  margin-bottom: 1em;
+}
+
+.contactForm input[type="file"] {
+  margin-bottom: 0.5em;
+}
+
+.contactForm button {
+  padding: 0.75em;
+}
+
+.contactForm p {
+  margin-top: 1em;
+}
+
+.contactForm button {
+  align-self: flex-end;
+  width: 200px;
+  background-color: var(--color-red);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}

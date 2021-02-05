@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import axios from "axios"
 
+import styles from "./contact-form.module.css"
+
 const ContactForm = () => {
   const [serverState, setServerState] = useState({
     submitting: false,
@@ -32,19 +34,30 @@ const ContactForm = () => {
       })
   }
   return (
-    <div className="contact-form">
-      <h3>Contact Us</h3>
+    <div className={styles.contactForm}>
+      <p>
+        Send us your drawings, artworks, cartoons, sketches, or any kind of
+        graphic design.
+      </p>
+      <h3>Get your softie :)</h3>
       <form
         acceptCharset="UTF-8"
         onSubmit={handleOnSubmit}
         encType="multipart/form-data"
       >
-        <input type="email" name="email" placeholder="Your Email" />
-        <input type="text" name="name" placeholder="Your Name" />
+        <label htmlFor="name">Name</label>
+        <input type="text" name="name" />
+        <label htmlFor="email">Email</label>
+        <input type="email" name="email" />
+        <label htmlFor="photo">Upload photo</label>
         <input type="file" name="photo"></input>
-        <input type="text" name="message" placeholder="Your Message" />
+        <label htmlFor="message">Message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
         <button type="submit">Send</button>
       </form>
+      <p>
+        Our email: <br /> mail@doodleyourtoys.com
+      </p>
     </div>
   )
 }

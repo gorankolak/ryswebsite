@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import HomeIntro from "../components/home-intro/home-intro"
 import GalleryComponent from "../components/gallery/gallery"
 import ContactForm from "../components/contact-form/contact-form"
 
@@ -12,13 +13,7 @@ const HomePage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Doodle Your Toys" />
-      <p>
-        We'll make you a unique plush toy based on your imagination. Send us
-        your drawings, artworks, cartoons, sketches, or any kind of graphic
-        design to mail@doodleyourtoys.com
-      </p>
-      <p>Turning drawings into stuffed plush toys - since 2013.</p>
-
+      <HomeIntro />
       <GalleryComponent />
       <ContactForm />
     </Layout>

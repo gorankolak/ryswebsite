@@ -13,8 +13,8 @@ const PricingPage = ({ data, location }) => {
       <h1>Pricing</h1>
 
       <p>
-        All of our toys are custom handmade as unique products based on drawings
-        and sketches received from you.
+        All of our toys are custom handmade as a unique products based on the
+        drawings and sketches received from you.
       </p>
       <p>
         Most often, our stuffed toys are created in two main sizes. Depending on
@@ -23,21 +23,20 @@ const PricingPage = ({ data, location }) => {
       </p>
       <ul>
         <li>
-          Standard size toy (approx. 11-13” / 28-33cm height or width)
+          Standard size toy (approx. 11-13” / 28-33cm height or width):
           <br />
-          $75 / €65 / £62  (shipping costs: $15 / €13 / £12)
+          $95 ( + shipping costs $20)
         </li>
         <li>
-          Large size toy (approx. 15-16” / 38-40cm height or width)
+          Large size toy (approx. 15-16” / 38-40cm height or width):
           <br />
-          $90 / €78 / £74  (shipping costs: $15 / €13 / £12)
+          $120 ( + shipping costs $20)
         </li>
       </ul>
       <p>We ship worldwide!</p>
       <p>
-        If you have any special request regarding a size or some other
-        requirements, please mention it when you send your message on our
-        Facebook and Instagram page or email to us.
+        If you have any special request regarding the size or some other
+        requirements, feel free to let us know.
       </p>
     </Layout>
   )
