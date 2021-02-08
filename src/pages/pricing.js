@@ -25,12 +25,12 @@ const PricingPage = ({ data, location }) => {
         <li>
           Standard size toy (approx. 11-13” / 28-33cm height or width):
           <br />
-          $95 ( + shipping costs $20)
+          $99 ( + shipping costs $20)
         </li>
         <li>
           Large size toy (approx. 15-16” / 38-40cm height or width):
           <br />
-          $120 ( + shipping costs $20)
+          $129 ( + shipping costs $20)
         </li>
       </ul>
       <p>We ship worldwide!</p>
