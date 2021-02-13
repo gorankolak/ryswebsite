@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio/bio"
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contact-form/contact-form"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -58,6 +59,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <ContactForm />
     </Layout>
   )
 }

@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contact-form/contact-form"
 
 import ankica from "../../content/assets/ankica-dyt.jpg"
 import leona from "../../content/assets/leona-dyt.jpg"
@@ -35,7 +36,7 @@ const AboutPage = ({ data, location }) => {
       </p>
       <h2>Ankica</h2>
       <p>
-        <img src={ankica} alt="Ankica" />
+        <img class="about-img" src={ankica} alt="Ankica" />
       </p>
       <p>
         Has years of experience in creating handmade products, especially in the
@@ -45,7 +46,7 @@ const AboutPage = ({ data, location }) => {
       </p>
       <h2>Leona</h2>
       <p>
-        <img src={leona} alt="Leona" />
+        <img class="about-img" src={leona} alt="Leona" />
       </p>
       <p>
         Contributes in all stages of development, but most of the time she
@@ -56,7 +57,7 @@ const AboutPage = ({ data, location }) => {
       </p>
       <h2>Goran</h2>
       <p>
-        <img src={goran} alt="Goran" />
+        <img class="about-img" src={goran} alt="Goran" />
       </p>
       <p>
         Responds to all your inquiries and comments, accepts and considers all
@@ -64,6 +65,7 @@ const AboutPage = ({ data, location }) => {
         receipt of an order to the delivery of the toy, goes through without any
         difficulties.
       </p>
+      <ContactForm />
     </Layout>
   )
 }

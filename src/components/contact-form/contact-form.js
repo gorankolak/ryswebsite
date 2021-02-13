@@ -35,10 +35,6 @@ const ContactForm = () => {
   }
   return (
     <div className={styles.contactForm}>
-      <p>
-        Send us your drawings, artworks, cartoons, sketches, or any kind of
-        graphic design.
-      </p>
       <h3>Get your softie :)</h3>
       <form
         acceptCharset="UTF-8"
@@ -56,7 +52,8 @@ const ContactForm = () => {
         <button type="submit">Send</button>
       </form>
       <p>
-        Our email: <br /> mail@doodleyourtoys.com
+        Send your drawings, artworks, cartoons, sketches, or any kind of graphic
+        design. <strong>mail@doodleyourtoys.com</strong>
       </p>
     </div>
   )

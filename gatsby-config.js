@@ -5,7 +5,7 @@ module.exports = {
       name: `Goran Kolak`,
       summary: `- he's flying everywhere.`,
     },
-    description: `Doodle Your Toys website - turning drawing to unique handmade toys`,
+    description: `From drawings into the stuffed toys. Send us your drawings, artworks, cartoons, sketches, or any kind of graphic design and we're going to make you a unique handmade toy.`,
     siteUrl: `https://doodleyourtoys.com`,
     social: {
       twitter: `#`,

@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contact-form/contact-form"
 
 const PricingPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -38,6 +39,7 @@ const PricingPage = ({ data, location }) => {
         If you have any special request regarding the size or some other
         requirements, feel free to let us know.
       </p>
+      <ContactForm />
     </Layout>
   )
 }

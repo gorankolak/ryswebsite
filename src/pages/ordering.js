@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
+import ContactForm from "../components/contact-form/contact-form"
 
 const OrderingPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -13,12 +14,11 @@ const OrderingPage = ({ data, location }) => {
       <h1>Ordering</h1>
       <p>
         If you want to place an order for a stuffed toy based on your artwork,
-        all you need for a start is to send us an email:{" "}
-        <a href="mailto:mail@doodleyourtoys.com">mail@doodleyourtoys.com</a>
+        all you need for a start is to send us a quick message!
       </p>
       <p>
-        You can also use our website’s contact form, or just leave a message on
-        our <a href="https://www.facebook.com/DoodleYourToys">Facebook</a> or{" "}
+        You can also use our website’s contact form, or just say "Hi!" on our{" "}
+        <a href="https://www.facebook.com/DoodleYourToys">Facebook</a> or{" "}
         <a href="https://www.instagram.com/doodleyourtoys/">Instagram</a> page.
       </p>
       <p>
@@ -55,6 +55,7 @@ const OrderingPage = ({ data, location }) => {
         you can contact us with any additional question or to inform yourself
         about any stage of the development.
       </p>
+      <ContactForm />
     </Layout>
   )
 }
