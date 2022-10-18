@@ -239,7 +239,7 @@ h1 {
 }
 
 .logo-wrapper {
-  max-width: 100px;
+  max-width: 90px;
 }
 
 @media (min-width: 1024px) {
@@ -289,7 +289,7 @@ h1 {
 .main-list {
   max-width: 500px;
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -305,7 +305,7 @@ h1 {
 
 @media (min-width: 1024px) {
   .main-list {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -333,19 +333,43 @@ h1 {
 
 /* FOOTER */
 footer {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
+  padding: 3.5rem 2.5rem 2.5rem;
   font-size: 18px;
   border-top: 1px solid var(--color-black);
   text-align: center;
+  background-color: var(--color-black);
+  color: #ec684d;
+}
+
+.footer-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.footer-title {
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
+
+.footer-title:last-of-type {
+  margin-bottom: 2rem;
+  /* font-size: 25px; */
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    /* max-width: 1200px; */
+    /* padding: 2.5rem 2.5rem 1.5rem; */
+  }
 }
 
 .footer-left {
   /* margin-bottom: 1rem; */
 }
 
-.footer-left p {
+/* .footer-left p {
   margin-bottom: 0.2em;
-}
+} */
 
 @media (min-width: 868px) {
   footer {
@@ -373,5 +397,9 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  color: #ec684d;
+}
+
+footer a {
+  color: #ec684d;
 }

@@ -16,12 +16,12 @@ const Footer = () => {
       </CookieConsent>
 
       <div className="footer-left">
-        <p>
-          contact ≈{" "}
+        <p class="footer-subtitle">Contact</p>
+        <p class="footer-title">
           <a href="mailto:info@raveyoursoul.com">info@raveyoursoul.com</a>
         </p>
-        <p>
-          demos ≈{" "}
+        <p class="footer-subtitle">Demos</p>
+        <p class="footer-title">
           <a href="mailto:demo@raveyoursoul.com">demo@raveyoursoul.com</a>
         </p>
       </div>
