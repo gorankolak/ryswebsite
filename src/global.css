@@ -91,6 +91,7 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -122,7 +123,7 @@ a {
   text-shadow: none;
   background-image: none;
   text-decoration: underline;
-  text-decoration-style: double;
+  /* text-decoration-style: double; */
   position: relative;
 }
 
@@ -149,6 +150,9 @@ a:active {
 /* ///// from style.css */
 .global-wrapper {
   position: relative;
+}
+
+.main-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -173,14 +177,14 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-  .global-wrapper {
+  .main-wrapper {
     /* max-width: 1200px; */
     padding: 2.5rem 2.5rem 1.5rem;
     /* padding: var(--spacing-20) var(--spacing-5) var(--spacing-10); */
   }
 }
 
-.global-wrapper[data-is-root-path="true"] .bio {
+.main-wrapper[data-is-root-path="true"] .bio {
   margin-bottom: var(--spacing-20);
 }
 

@@ -5,7 +5,7 @@ import styles from "./footer.module.css"
 
 const Footer = () => {
   return (
-    <footer class="footer" className={styles.footer}>
+    <footer id="contact" class="footer" className={styles.footer}>
       <CookieConsent
         location="bottom"
         buttonText="Accept"

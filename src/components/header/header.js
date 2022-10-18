@@ -18,7 +18,7 @@ const Header = () => {
           <li>
             {/* TO-DO: Later transform to graphQL link usage */}
             <Link activeClassName={styles.active} to="/our-story/">
-              our story
+              Our Story
             </Link>
           </li>
         </ul>

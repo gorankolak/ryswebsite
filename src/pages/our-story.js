@@ -18,7 +18,7 @@ const AboutPage = ({ data, location }) => {
       <SEO title="Our story" />
       <img class="hero-img" src={bgimg} alt="heroimg" />
       <div className="content-wrapper">
-        <h1>our story</h1>
+        <h1>Our Story</h1>
         <p>
           An international brand shaped between two spheres, driven by passion
           and intuition with the mission of bringing constant change and

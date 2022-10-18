@@ -11,7 +11,7 @@ module.exports = {
       twitter: `#`,
     },
   },
-  pathPrefix: "/rysweb",
+  pathPrefix: "/ryswebsite",
   plugins: [
     {
       resolve: `gatsby-plugin-gdpr-cookies`,

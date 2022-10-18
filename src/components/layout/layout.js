@@ -9,9 +9,11 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <Header />
+      <div className="main-wrapper">
+        <Header />
 
-      <main class="main">{children}</main>
+        <main class="main">{children}</main>
+      </div>
 
       <Footer />
     </div>
