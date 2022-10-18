@@ -1,39 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../../content/assets/dyt-logo.png"
+import logo from "../../../content/assets/logo_black.png"
 import styles from "./header.module.css"
 
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <div className={styles.logoWrapper}>
+    <header class="header">
+      <div class="logo-wrapper">
         <Link to="/">
-          <img src={logo} alt="Logo" />
+          <img class="logo" src={logo} alt="Logo" />
         </Link>
       </div>
 
-      <nav className={styles.nav}>
+      <nav class="nav">
         <ul>
           <li>
             {/* TO-DO: Later transform to graphQL link usage */}
-            <Link activeClassName={styles.active} to="/ordering/">
-              Ordering
-            </Link>
-          </li>
-          <li>
-            <Link activeClassName={styles.active} to="/pricing/">
-              Pricing
-            </Link>
-          </li>
-          <li>
-            <Link activeClassName={styles.active} to="/about-us/">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link activeClassName={styles.active} to="/blog/">
-              Blog
+            <Link activeClassName={styles.active} to="/our-story/">
+              our story
             </Link>
           </li>
         </ul>

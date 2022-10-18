@@ -12,10 +12,12 @@ const HomePage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Doodle Your Toys" />
+      <SEO title="Rave Your Soul" />
+      {/* <div className="hero-img"></div> */}
+
       <HomeIntro />
-      <GalleryComponent />
-      <ContactForm />
+      {/* <GalleryComponent /> */}
+      {/* <ContactForm /> */}
     </Layout>
   )
 }

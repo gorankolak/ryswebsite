@@ -1,16 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Doodle Your Toys`,
+    title: `Rave Your Soul`,
     author: {
       name: `Goran Kolak`,
-      summary: `- he's flying everywhere.`,
+      summary: `sharp brains, warm hearts.`,
     },
-    description: `From drawings into the stuffed toys. Send us your drawings, artworks, cartoons, sketches, or any kind of graphic design and we're going to make you a unique handmade toy.`,
-    siteUrl: `https://doodleyourtoys.com`,
+    description: `Groove-driven techno music label.`,
+    siteUrl: `https://raveyoursoul.com`,
     social: {
       twitter: `#`,
     },
   },
+  pathPrefix: "/rysweb",
   plugins: [
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
@@ -95,13 +96,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Doodle Your Toys`,
+        name: `Rave Your Soul`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/dyt-dev-favicon.png`,
+        icon: `content/assets/logo_favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
