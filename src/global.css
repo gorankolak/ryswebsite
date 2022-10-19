@@ -479,7 +479,7 @@ footer a {
 } */
 
 .svgs {
-  filter: blur(1px);
+  /* filter: blur(1px); */
   opacity: 0.25;
   z-index: -2;
 }
@@ -520,7 +520,7 @@ footer a {
   width: 10rem;
   z-index: 0;
   opacity: 0.1;
-  filter: blur(2px);
+  /* filter: blur(2px); */
 }
 
 @media (min-width: 868px) {
