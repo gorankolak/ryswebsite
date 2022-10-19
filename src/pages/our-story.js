@@ -8,7 +8,8 @@ import ContactForm from "../components/contact-form/contact-form"
 import ankica from "../../content/assets/ankica-dyt.jpg"
 import leona from "../../content/assets/leona-dyt.jpg"
 import goran from "../../content/assets/goran-dyt.jpg"
-import bgimg from "../../content/assets/bg_image_2.jpeg"
+// import bgimg from "../../content/assets/bg_image_2.jpeg"
+import SVGour1 from "../../content/assets/svg/galaxy05.svg"
 
 const AboutPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -16,7 +17,9 @@ const AboutPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Our story" />
-      <img class="hero-img" src={bgimg} alt="heroimg" />
+      {/* <img class="hero-img" src={bgimg} alt="heroimg" /> */}
+      <SVGour1 class="svgour1 svgs" />
+
       <div className="content-wrapper">
         <h1>Our Story</h1>
         <p>

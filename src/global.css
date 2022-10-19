@@ -75,6 +75,9 @@
   /* --color-black: #232020; */
   --color-black: hsla(0, 0%, 0%, 0.9);
 
+  /* --color-black: #171717; */
+  --color-black: #0d0902;
+  /* 171717 */
   /* --color-black: #202a25; */
   /* --color-black: #212738; */
 
@@ -97,6 +100,7 @@ html {
 body {
   background-color: #ec684d;
   /* background-color: #3e4b97; */
+  /* background-color: lightsalmon; */
   font-family: kaftan;
   color: var(--color-black);
   /* line-height: 1; */
@@ -197,17 +201,19 @@ h1 {
 /* ///// */
 
 .hero-img {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: -1;
+  display: none;
 
   /* filter: hue-rotate(var(--value, 360deg)); */
   /* filter: invert(var(--value, 100%)); */
   /* filter: blur(5px); */
+  /* filter: grayscale(); */
 }
 
 /* HEADER */
@@ -249,7 +255,7 @@ h1 {
 
 @media (min-width: 1024px) {
   .logo-wrapper {
-    /* max-width: 150px; */
+    /* max-width: 6rem; */
   }
 }
 
@@ -290,7 +296,7 @@ h1 {
 .main-list-wrapper {
   max-width: 60rem;
   margin: auto;
-  padding: 5rem 0 5rem 1rem;
+  padding: 5rem 0 2rem 1rem;
   border: 1px solid var(--color-black);
   border-radius: 50%;
   /* background-color: #999; */
@@ -337,7 +343,7 @@ h1 {
   height: 100%;
   /* filter: blur(20px) grayscale(1); */
   /* filter: blur(20px); */
-  opacity: 0.75;
+  /* opacity: 0.75; */
 }
 
 .main {
@@ -346,7 +352,7 @@ h1 {
 
 .main-list {
   max-width: 500px;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   margin: 0 auto;
   /* font-size: 36px; */
   font-size: 25px;
@@ -401,7 +407,7 @@ footer {
   padding: 3.5rem 2.5rem 2.5rem;
   /* border-radius: 25%; */
   font-size: 18px;
-  border-top: 1px solid var(--color-black);
+  /* border-top: 1px solid var(--color-black); */
   text-align: center;
   background-color: var(--color-black);
   color: #ec684d;
@@ -468,4 +474,64 @@ footer p {
 
 footer a {
   color: #ec684d;
+}
+
+.svgbg1 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* transform: rotate(-95deg); */
+  width: 5rem;
+  /* opacity: 0.2; */
+  z-index: -1;
+}
+
+.svgbg2 {
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+  /* width: 100%;
+  height: 100%; */
+  /* opacity: 0.2; */
+  width: 5rem;
+  z-index: -1;
+}
+
+.svgbg3 {
+  position: fixed;
+  bottom: 0;
+  right: -75%;
+  /* left: 0; */
+  top: 1rem;
+  /* width: 100%;
+  height: 100%; */
+  /* opacity: 0.2; */
+  width: 200%;
+  height: 100%;
+  /* margin: auto; */
+  z-index: -1;
+}
+
+.svgbg4 {
+  position: fixed;
+  bottom: 0;
+  left: -75%;
+  top: 1rem;
+  width: 200%;
+  height: 100%;
+  z-index: -1;
+}
+
+.svgs {
+  filter: blur(1px);
+  opacity: 0.2;
+}
+
+.svgour1 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  /* height: 100%; */
+  z-index: -1;
 }
