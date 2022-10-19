@@ -519,7 +519,7 @@ footer a {
   right: 0.5rem;
   width: 10rem;
   z-index: 0;
-  opacity: 0.3;
+  /* opacity: 0.3; */
   /* filter: blur(2px); */
 }
 

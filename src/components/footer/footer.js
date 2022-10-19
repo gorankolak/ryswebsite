@@ -2,7 +2,7 @@ import React from "react"
 import CookieConsent from "react-cookie-consent"
 
 import styles from "./footer.module.css"
-import SVGfooter1 from "../../../content/assets/svg/footersvg_2.svg"
+import SVGfooter1 from "../../../content/assets/svg/footersvg_1.svg"
 
 const Footer = () => {
   return (
