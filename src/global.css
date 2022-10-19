@@ -500,7 +500,8 @@ footer a {
 .svgbg3 {
   position: fixed;
   bottom: 0;
-  right: -75%;
+  right: -65%;
+  /* right: -75%; */
   /* left: 0; */
   top: 2rem;
   /* width: 100%;
@@ -510,6 +511,12 @@ footer a {
   height: 100%;
   /* margin: auto; */
   z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .svgbg3 {
+    right: -75%;
+  }
 }
 
 /* .svgbg4 {
@@ -534,4 +541,10 @@ footer a {
   width: 10rem;
   /* height: 100%; */
   z-index: -1;
+}
+
+.our-story-page,
+.our-story-page .content-wrapper p {
+  background-color: lightskyblue;
+  /* color: #ec684d; */
 }

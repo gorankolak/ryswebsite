@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
@@ -18,6 +19,7 @@ const AboutPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Our story" />
       {/* <img class="hero-img" src={bgimg} alt="heroimg" /> */}
+      <Helmet bodyAttributes={{ class: "our-story-page" }} />
       <SVGour1 class="svgour1 svgs" />
 
       <div className="content-wrapper">
