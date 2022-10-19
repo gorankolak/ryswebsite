@@ -31,7 +31,7 @@ const HomeIntro = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Bandcamp
+              bandcamp
             </a>
           </li>
           <li>
@@ -42,7 +42,7 @@ const HomeIntro = () => {
               target="_blank"
               rel="noreferrer"
             >
-              SoundCloud
+              soundcloud
             </a>
           </li>
 
@@ -51,11 +51,11 @@ const HomeIntro = () => {
         </li> */}
           <li class="disabled-item">
             {/* <p className={styles.subtitle}>coming soon</p> */}
-            <a className={styles.title}>Instagram*</a>
+            <a className={styles.title}>instagram*</a>
           </li>
           <li class="disabled-item">
             {/* <p className={styles.subtitle}>coming soon</p> */}
-            <a className={styles.title}>Blog*</a>
+            <a className={styles.title}>blog*</a>
           </li>
           <li>
             {/* <p className={styles.subtitle}>videos</p> */}
@@ -65,13 +65,13 @@ const HomeIntro = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Youtube
+              youtube
             </a>
           </li>
           <li>
             {/* <p className={styles.subtitle}>videos</p> */}
             <a href="#contact" className={styles.title}>
-              Contact
+              contact
             </a>
           </li>
         </ul>

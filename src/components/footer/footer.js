@@ -16,18 +16,18 @@ const Footer = () => {
       </CookieConsent>
 
       <div className="footer-left">
-        <p class="footer-subtitle">Contact</p>
+        <p class="footer-subtitle">contact</p>
         <p class="footer-title">
           <a href="mailto:info@raveyoursoul.com">info@raveyoursoul.com</a>
         </p>
-        <p class="footer-subtitle">Demos</p>
+        <p class="footer-subtitle">demos</p>
         <p class="footer-title">
           <a href="mailto:demo@raveyoursoul.com">demo@raveyoursoul.com</a>
         </p>
       </div>
 
       <div className="footer-right">
-        <p>~</p>
+        {/* <p>~</p> */}
         <p>all content © {new Date().getFullYear()}. rave your soul</p>
       </div>
     </footer>

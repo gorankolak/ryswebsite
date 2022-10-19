@@ -23,7 +23,7 @@ const AboutPage = ({ data, location }) => {
       <SVGour1 class="svgour1 svgs" />
 
       <div className="content-wrapper">
-        <h1>Our Story</h1>
+        <h1>OUR STORY</h1>
         <p>
           An international brand shaped between two spheres, driven by passion
           and intuition with the mission of bringing constant change and
