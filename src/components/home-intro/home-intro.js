@@ -11,7 +11,12 @@ import SVGbg5 from "../../../content/assets/svg/target_aim03.svg"
 const HomeIntro = () => {
   return (
     <div className={styles.HomeIntro}>
-      {/* <img class="hero-img" src={bgimg} alt="heroimg" /> */}
+      <div
+        className={styles.HomeIntro}
+        class="tester"
+        style={{ backgroundImage: `url(${bgimg})` }}
+      ></div>
+      <img class="hero-img" src={bgimg} alt="heroimg" />
       {/* <SVGbg1 class="svgbg1 svgs" /> */}
       <SVGbg2 class="svgbg2 svgs" />
       {/* <SVGbg3 class="svgbg3 svgs" />
