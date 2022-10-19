@@ -296,7 +296,7 @@ h1 {
 .main-list-wrapper {
   max-width: 60rem;
   margin: auto;
-  padding: 5.5rem 0 3rem 1rem;
+  padding: 6.5rem 0 4rem 1rem;
   border: 1px solid var(--color-black);
   border-radius: 50%;
   /* background-color: #999; */
@@ -369,7 +369,7 @@ h1 {
 
 @media (min-width: 390px) {
   .main-list li {
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
   }
 }
 
@@ -397,7 +397,7 @@ h1 {
   } */
 
   .main-list li {
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
   }
 }
 
@@ -502,7 +502,7 @@ footer a {
   bottom: 0;
   right: -75%;
   /* left: 0; */
-  top: 1rem;
+  top: 2rem;
   /* width: 100%;
   height: 100%; */
   /* opacity: 0.2; */
@@ -512,7 +512,7 @@ footer a {
   z-index: -1;
 }
 
-.svgbg4 {
+/* .svgbg4 {
   position: fixed;
   bottom: 0;
   left: -75%;
@@ -520,7 +520,7 @@ footer a {
   width: 200%;
   height: 100%;
   z-index: -1;
-}
+} */
 
 .svgs {
   filter: blur(1px);
