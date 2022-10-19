@@ -519,7 +519,7 @@ footer a {
   right: 0.5rem;
   width: 10rem;
   z-index: 0;
-  opacity: 0.1;
+  opacity: 0.3;
   /* filter: blur(2px); */
 }
 
@@ -530,6 +530,13 @@ footer a {
     left: 0;
     right: 0;
     margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .svgfooter1 {
+    width: 13rem;
+    top: 2rem;
   }
 }
 
