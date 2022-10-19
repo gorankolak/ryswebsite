@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../../content/assets/logo_black.png"
+import logo from "../../../content/assets/logo_black2.png"
 import styles from "./header.module.css"
 
 const Header = () => {

@@ -11,6 +11,8 @@ import leona from "../../content/assets/leona-dyt.jpg"
 import goran from "../../content/assets/goran-dyt.jpg"
 // import bgimg from "../../content/assets/bg_image_2.jpeg"
 import SVGour1 from "../../content/assets/svg/galaxy05.svg"
+import SVGour2 from "../../content/assets/svg/ellipse01.svg"
+import SVGour3 from "../../content/assets/svg/abstract_shape13.svg"
 
 const AboutPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -21,6 +23,8 @@ const AboutPage = ({ data, location }) => {
       {/* <img class="hero-img" src={bgimg} alt="heroimg" /> */}
       <Helmet bodyAttributes={{ class: "our-story-page" }} />
       <SVGour1 class="svgour1 svgs" />
+      <SVGour2 class="svgour2 svgs" />
+      <SVGour3 class="svgour3 svgs" />
 
       <div className="content-wrapper">
         <h1>OUR STORY</h1>
