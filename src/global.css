@@ -296,7 +296,7 @@ h1 {
 .main-list-wrapper {
   max-width: 60rem;
   margin: auto;
-  padding: 5rem 0 2rem 1rem;
+  padding: 5.5rem 0 3rem 1rem;
   border: 1px solid var(--color-black);
   border-radius: 50%;
   /* background-color: #999; */
@@ -360,7 +360,7 @@ h1 {
 }
 
 .main-list li {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .main-list li:last-of-type {
