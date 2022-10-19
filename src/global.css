@@ -355,6 +355,7 @@ h1 {
 
 /* FOOTER */
 footer {
+  position: relative;
   padding: 3rem 1.5rem;
   text-align: center;
   background-color: var(--color-black);
@@ -510,6 +511,26 @@ footer a {
   z-index: -1;
   transform: rotate(-30deg);
   opacity: 0.025;
+}
+
+.svgfooter1 {
+  position: absolute;
+  top: 2rem;
+  right: 0.5rem;
+  width: 10rem;
+  z-index: 0;
+  opacity: 0.1;
+  filter: blur(2px);
+}
+
+@media (min-width: 868px) {
+  .svgfooter1 {
+    width: 12rem;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 /* OUR STORY */
