@@ -7,19 +7,16 @@ import SVGbg2 from "../../../content/assets/svg/abstract_shape29.svg"
 import SVGbg3 from "../../../content/assets/svg/abstract_shape03.svg"
 import SVGbg4 from "../../../content/assets/svg/sun04.svg"
 import SVGbg5 from "../../../content/assets/svg/target_aim03.svg"
+import SVGbg6 from "../../../content/assets/svg/sparkle_light_13.svg"
 
 const HomeIntro = () => {
   return (
     <div className={styles.HomeIntro}>
       {/* <img class="hero-img" src={bgimg} alt="heroimg" /> */}
-      {/* <SVGbg1 class="svgbg1 svgs" /> */}
       <SVGbg2 class="svgbg2 svgs" />
-      {/* <SVGbg3 class="svgbg3 svgs" />
-      <SVGbg3 class="svgbg4 svgs" /> */}
       <SVGbg4 class="svgbg3 svgs" />
-      {/* <SVGbg4 class="svgbg4 svgs" /> */}
       <SVGbg5 class="svgbg1 svgs" />
-      {/* <SVGbg5 class="svgbg2 svgs" /> */}
+      <SVGbg6 class="svgbg4 svgs" />
 
       <div className="main-list-wrapper">
         <ul class="main-list">
