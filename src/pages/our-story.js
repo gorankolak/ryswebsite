@@ -29,19 +29,24 @@ const AboutPage = ({ data, location }) => {
       <div className="content-wrapper">
         <h1>OUR STORY</h1>
         <p>
-          An international brand shaped between two spheres, driven by passion
-          and intuition with the mission of bringing constant change and
-          process, as well as celebrating the culture of dance music.
+          An international brand shaped between two spheres; driven by passion
+          and intuition, on the mission of bringing constant change and process,
+          as well as celebrating the culture of dance music.
         </p>
         <p>
-          Carefully crafted, Rave Your Soul takes a diverse approach and
-          numerous directions when it comes to electronic music.
+          Carefully crafted, Rave Your Soul is mainly focused towards fast-paced
+          grooves, an up to date modern-sounding techno - heavily influenced by
+          the late 90s / 2000’s golden era, but also with a diverse approach -
+          ready to take a numerous directions when it comes to electronic
+          music. 
         </p>
         <p>
-          Our vision is to create a safe space for souls to show their essential
-          nature in a positive and bright color.
+          Our vision is to develop a creative space for like-minded souls to
+          show their essential nature in a positive and bright color.
         </p>
-        <p>When you make moves with closed eyes it shapes your soul.</p>
+        <p class="quote">
+          When you make moves with closed eyes it shapes your soul.
+        </p>
         <p class="quote">Sharp brains, warm hearts.</p>
       </div>
 
