@@ -2,7 +2,7 @@ import React from "react"
 import CookieConsent from "react-cookie-consent"
 
 import styles from "./footer.module.css"
-import SVGfooter1 from "../../../content/assets/svg/footersvg_1.svg"
+// import SVGfooter1 from "../../../content/assets/svg/footersvg_1.svg"
 
 const Footer = () => {
   return (
@@ -15,8 +15,7 @@ const Footer = () => {
       >
         This site uses cookies to offer you a better browsing experience.
       </CookieConsent>
-
-      <SVGfooter1 class="svgfooter1 svgs" />
+      {/* <SVGfooter1 class="svgfooter1 svgs" /> */}
       <div className="footer-left">
         <p class="footer-subtitle">contact</p>
         <p class="footer-title">
