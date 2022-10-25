@@ -1,4 +1,4 @@
-.footer::after {
+/* .footer:after {
   content: "";
   position: absolute;
   z-index: -2;
@@ -9,7 +9,7 @@
   background-color: var(--color-black);
 }
 
-.footer::before {
+.footer:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -20,8 +20,10 @@
   background-image: url(../../../content/assets/bg_web_wide.png);
   background-size: cover;
   opacity: 0.25;
-}
+} */
 
 footer {
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-image: url(../../../content/assets/bg_web_wide2.png);
+  background-size: cover;
 }
