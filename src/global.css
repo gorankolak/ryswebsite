@@ -378,9 +378,13 @@ h1 {
 footer {
   position: relative;
   padding: 3rem 1.5rem;
+  margin: 0 1.5rem 2.5rem;
   text-align: center;
   background-color: var(--color-black);
   color: #ec684d;
+  border-radius: 50px;
+  filter: drop-shadow(0.75rem 0.75rem 0.5rem var(--color-black));
+  border: 2px solid var(--color-black);
 }
 
 .footer-right p {
@@ -441,6 +445,7 @@ footer a {
 
 @media (min-width: 1024px) {
   footer {
+    margin: 0 2.5rem 2.5rem;
     padding: 3rem 2.5rem;
   }
 

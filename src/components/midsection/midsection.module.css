@@ -1,7 +1,29 @@
-/* .midsection {
+.midsection {
+  /* background-color: #ec684d; */
+  /* background-color: var(--color-blue); */
   height: 400px;
   width: 100%;
-  background-image: url(../../../content/assets/bg_web_wide.png);
+  /* max-width: 900px; */
+  /* margin: 0 auto 2.5rem; */
+  margin: 0 auto 2rem;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.midinside {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: 2px solid var(--color-black);
+  background-image: url(../../../content/assets/midsection_bg_1.png);
   background-size: cover;
-  opacity: 0.95;
-} */
+  opacity: 0.5;
+  filter: drop-shadow(0.75rem 0.75rem 0.5rem var(--color-black));
+  /* filter: blur(5px); */
+}
+
+@media (min-width: 1024px) {
+  .midsection {
+    margin: 1rem auto;
+    padding: 2.5rem 2.5rem 1rem;
+  }
+}
