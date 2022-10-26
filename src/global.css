@@ -85,6 +85,8 @@
   --color-text: hsla(0, 0%, 0%, 0.73);
   --color-bg-main: #ec684d;
   /* --color-bg-main: #ffcdbc; */
+  --color-blue: #afd2e9;
+  --color-sub: #88f9c5;
 }
 
 *,
@@ -383,13 +385,15 @@ footer {
 .footer-right p {
   margin: 0;
   padding-top: 1.5rem;
-  border-top: 1px solid #999;
-  color: #999;
+  border-top: 1px solid var(--color-sub);
+  /* color: #999; */
+  color: var(--color-sub);
 }
 
 .footer-subtitle {
   margin-bottom: 0;
-  color: #999;
+  /* color: #999; */
+  color: var(--color-sub);
 }
 
 .footer-title {
@@ -577,7 +581,8 @@ footer a {
 /* OUR STORY */
 .our-story-page,
 .our-story-page .content-wrapper p {
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
+  background-color: var(--color-blue);
   /* color: #ec684d; */
 }
 
