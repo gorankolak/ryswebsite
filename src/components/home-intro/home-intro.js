@@ -43,13 +43,21 @@ const HomeIntro = () => {
             </a>
           </li>
 
+          <li>
+            {/* <p className={styles.subtitle}>music</p> */}
+            <a
+              href="https://www.instagram.com/rave.your.soul/"
+              className={styles.title}
+              target="_blank"
+              rel="noreferrer"
+            >
+              instagram
+            </a>
+          </li>
+
           {/* <li>
           <a className={styles.title}>contact</a>
         </li> */}
-          <li class="disabled-item">
-            {/* <p className={styles.subtitle}>coming soon</p> */}
-            <a className={styles.title}>instagram*</a>
-          </li>
           <li class="disabled-item">
             {/* <p className={styles.subtitle}>coming soon</p> */}
             <a className={styles.title}>blog*</a>
