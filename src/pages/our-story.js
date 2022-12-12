@@ -29,9 +29,9 @@ const AboutPage = ({ data, location }) => {
       <div className="content-wrapper">
         <h1>OUR STORY</h1>
         <p>
-          An international brand shaped between two spheres; driven by passion
-          and intuition, on the mission of bringing constant change and process,
-          as well as celebrating the culture of dance music.
+          A record label shaped between two spheres; driven by passion and
+          intuition, on the mission of bringing constant change and process, as
+          well as celebrating the culture of dance music.
         </p>
         <p>
           Carefully crafted, Rave Your Soul is mainly focused towards fast-paced
@@ -41,12 +41,11 @@ const AboutPage = ({ data, location }) => {
           music. 
         </p>
         <p>
-          Our vision is to develop a creative space for like-minded souls to
-          show their essential nature in a positive and bright color.
+          Our vision is to develop a platform for new and upcoming generation of
+          artists, a creative space for like-minded souls to show their
+          essential nature in a positive and bright color.
         </p>
-        <p class="quote">
-          When you make moves with closed eyes it shapes your soul.
-        </p>
+        <p>We are located in Osijek & Rotterdam.</p>
         <p class="quote">Sharp brains, warm hearts.</p>
       </div>
 
