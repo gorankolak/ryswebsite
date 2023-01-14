@@ -65,7 +65,7 @@ const HomeIntro = () => {
           <li>
             {/* <p className={styles.subtitle}>videos</p> */}
             <a
-              href="https://www.youtube.com/channel/UCG1BsV6As1PH84YGSytn3yg"
+              href="https://www.youtube.com/@raveyoursoul/"
               className={styles.title}
               target="_blank"
               rel="noreferrer"
