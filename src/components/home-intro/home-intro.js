@@ -58,9 +58,18 @@ const HomeIntro = () => {
           {/* <li>
           <a className={styles.title}>contact</a>
         </li> */}
-          <li class="disabled-item">
+          {/* <li class="disabled-item"> */}
+          <li>
             {/* <p className={styles.subtitle}>coming soon</p> */}
-            <a className={styles.title}>blog*</a>
+            {/* <a className={styles.title}>blog*</a> */}
+            <a
+              href="https://open.spotify.com/playlist/02KRGOQrsLuz5ByYXAZ4fx"
+              className={styles.title}
+              target="_blank"
+              rel="noreferrer"
+            >
+              spotify
+            </a>
           </li>
           <li>
             {/* <p className={styles.subtitle}>videos</p> */}
